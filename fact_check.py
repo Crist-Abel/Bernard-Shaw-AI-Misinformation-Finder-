@@ -33,7 +33,7 @@ def wiki_verify(query):
 # 2. GNEWS SEARCH (FREE TIER)
 # -------------------------
 def gnews_verify(query):
-    API_KEY = "082fc7ce2050690282adc285e57bf445"  # free 100 req/day
+    API_KEY = "YOUR API KEY"  # free 100 req/day
     url = f"https://gnews.io/api/v4/search?q={query}&token={API_KEY}"
 
     try:
@@ -51,7 +51,7 @@ def gnews_verify(query):
 # 3. GOOGLE FACT CHECK API
 # -------------------------
 def google_factcheck(query):
-    API_KEY = "AIzaSyAaNyl-QLQdgztBa-fxkq3JVp31PFaI0MQ"  # free, no card required
+    API_KEY = "YOUR API KEY"  # free, no card required
     API_URL = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
 
     params = {
